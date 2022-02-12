@@ -25,12 +25,12 @@ font-weight: bold; то же самое что и 700 */
   --primary-font-weight: 400;
 
   --main-leter-spacing: 0.03em;
-  --secondary-leter-spacing:0.02em;
+  --secondary-leter-spacing: 0.02em;
   --primary-leter-spacing: 0.06em;
 
   --main-txt-clr: #212121;
   --secondary-txt-clr: #757575;
-  --primary-txt-clr: #2196F3;
+  --primary-txt-clr: #2196f3;
 
   --main-line-hght: 1.14;
   --secondary-line-hght: 1.17;
@@ -38,27 +38,29 @@ font-weight: bold; то же самое что и 700 */
   --fourth-line-hght: 1.19;
 
   --main-link-clr: #ffffff;
-  --secondary-link-clr: #2F303A;
+  --secondary-link-clr: #2f303a;
 
   --main-text-decor: none;
 }
 
 /* студия */
 /* оформление логотипа */
-.logohead, .logo-footer {
+.logohead,
+.logo-footer {
   font-family: var(--secondary-font);
   font-weight: var(--secondary-font-weight);
   font-size: 26px;
   line-height: 1.91;
-  text-decoration: none
+  text-decoration: none;
 }
 
-.webhead, .webfooter {
+.webhead,
+.webfooter {
   color: var(--primary-txt-clr);
 }
 
 .studiohead {
-  color:var(--secondary-link-clr);
+  color: var(--secondary-link-clr);
 }
 
 .studiofooter {
@@ -69,22 +71,24 @@ font-weight: bold; то же самое что и 700 */
   letter-spacing: var(--secondary-leter-spacing);
 }
 
-.nav-item:hover, .nav-item:focus {
+.nav-item:hover,
+.nav-item:focus {
   color: var(--primary-txt-clr);
 }
 
 .nav-item {
   color: var(--main-txt-clr);
-  text-decoration: var(--main-text-decor)
+  text-decoration: var(--main-text-decor);
 }
 
-.contacts-item:hover, .contacts-item:focus {
+.contacts-item:hover,
+.contacts-item:focus {
   color: var(--primary-txt-clr);
 }
 
 .contacts-item {
   color: var(--secondary-txt-clr);
-  text-decoration: var(--main-text-decor)
+  text-decoration: var(--main-text-decor);
 }
 
 .main-contacts {
@@ -129,8 +133,15 @@ font-weight: bold; то же самое что и 700 */
   color: var(--secondary-txt-clr);
 }
 
-.peculiarities-list, .work-list, .team-list, .contacts-footer, .btn-item, .content-list, .main-navigation, .main-contacts {
-  list-style: none
+.peculiarities-list,
+.work-list,
+.team-list,
+.contacts-footer,
+.btn-item,
+.content-list,
+.main-navigation,
+.main-contacts {
+  list-style: none;
 }
 
 .work h2 {
@@ -139,10 +150,11 @@ font-weight: bold; то же самое что и 700 */
   line-height: var(--secondary-line-hght);
 }
 
-.work-tittle, .team-maintittle {
-font-weight: var(--secondary-font-weight);
-font-size: var(--primary-font-sz);
-line-height: var(--secondary-line-hght);
+.work-tittle,
+.team-maintittle {
+  font-weight: var(--secondary-font-weight);
+  font-size: var(--primary-font-sz);
+  line-height: var(--secondary-line-hght);
 }
 
 .team h2 {
@@ -169,7 +181,7 @@ line-height: var(--secondary-line-hght);
   line-height: var(--primary-line-hght);
   color: var(--main-link-clr);
   font-style: normal;
-  text-decoration: var(--main-text-decor)
+  text-decoration: var(--main-text-decor);
 }
 
 .links-footer {
@@ -188,18 +200,19 @@ line-height: var(--secondary-line-hght);
   font-weight: var(--primary-font-weight);
   line-height: var(--primary-line-hght);
   color: rgba(255, 255, 255, 0.6);
-  text-decoration: var(--main-text-decor)
+  text-decoration: var(--main-text-decor);
 }
 
 /* портфолио */
-.btonu:hover, .btonu:focus {
+.btonu:hover,
+.btonu:focus {
   background-color: var(--primary-txt-clr);
 }
 
 .content-tittle {
   font-weight: var(--secondary-font-weight);
   font-size: var(--fourth-font-sz);
-  line-height: 2.0;
+  line-height: 2;
   letter-spacing: var(--primary-leter-spacing);
   color: var(--main-txt-clr);
 }
@@ -212,5 +225,5 @@ line-height: var(--secondary-line-hght);
 }
 
 .content-links {
-  text-decoration: var(--main-text-decor)
+  text-decoration: var(--main-text-decor);
 }
