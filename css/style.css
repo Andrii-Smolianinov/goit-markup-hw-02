@@ -31,6 +31,7 @@ font-weight: bold; то же самое что и 700 */
   --main-txt-clr: #212121;
   --secondary-txt-clr: #757575;
   --primary-txt-clr: #2196f3;
+  --color-rdba: rgba(255, 255, 255, 0.6);
 
   --main-line-hght: 1.14;
   --secondary-line-hght: 1.17;
@@ -188,7 +189,7 @@ font-weight: bold; то же самое что и 700 */
   font-weight: var(--primary-font-weight);
   font-size: var(--main-font-sz);
   line-height: var(--primary-line-hght);
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--color-rdba);
 }
 
 .footer {
@@ -199,7 +200,7 @@ font-weight: bold; то же самое что и 700 */
   font-style: normal;
   font-weight: var(--primary-font-weight);
   line-height: var(--primary-line-hght);
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--color-rdba);
   text-decoration: var(--main-text-decor);
 }
 
