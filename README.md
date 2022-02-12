@@ -1,1 +1,1 @@
-https://github.com/Andrii-Smolianinov/goit-markup-hw-02.git
+https://andrii-smolianinov.github.io/goit-markup-hw-02/
