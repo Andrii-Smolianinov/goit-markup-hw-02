@@ -70,7 +70,7 @@ font-weight: bold; то же самое что и 700 */
 }
 
 .nav-item:hover, .nav-item:focus {
-  color: var(--primary-txt-clr); cursor: pointer;
+  color: var(--primary-txt-clr);
 }
 
 .nav-item {
@@ -79,7 +79,7 @@ font-weight: bold; то же самое что и 700 */
 }
 
 .contacts-item:hover, .contacts-item:focus {
-  color: var(--primary-txt-clr); cursor: pointer;
+  color: var(--primary-txt-clr);
 }
 
 .contacts-item {
@@ -194,7 +194,6 @@ line-height: var(--secondary-line-hght);
 /* портфолио */
 .btonu:hover, .btonu:focus {
   background-color: var(--primary-txt-clr);
-  cursor: pointer;
 }
 
 .content-tittle {
