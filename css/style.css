@@ -114,17 +114,22 @@ font-weight: bold; то же самое что и 700 */
   font-weight: var(--secondary-font-weight);
   font-size: var(--secondary-font-sz);
   line-height: 1.87;
-  display: flex;
-  align-items: center;
+   align-items: center;
+  text-align: center;
   letter-spacing: var(--primary-leter-spacing);
   color: var(--main-link-clr);
   background: var(--primary-txt-clr);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
 }
 
 .peculiarities h3 {
   font-weight: var(--secondary-font-weight);
+  font-size: var(--main-font-sz);
   text-transform: uppercase;
 }
 
@@ -209,6 +214,21 @@ font-weight: bold; то же самое что и 700 */
 .btonu:focus {
   background-color: var(--primary-txt-clr);
 }
+
+.btonu {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color:var(--main-txt-clr);
+  background: #F5F4FA;
+  border-radius: 4px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
 
 .content-tittle {
   font-weight: var(--secondary-font-weight);
